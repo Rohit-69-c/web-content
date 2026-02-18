@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Content Format and Types</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="top-profile">
+    <a href="#profile" style="color: black;font-family:fantasy;">My Profile</a>
+</div>
+
+<header>
+    <h1>Content Format and Types</h1>
+    <p>Web Content Development</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#textual">Textual</a></li>
+        <li><a href="#visual">Visual</a></li>
+        <li><a href="#audio">Audio</a></li>
+        <li><a href="#social">Social Media</a></li>
+        <li><a href="#educational">Educational</a></li>
+    </ul>
+</nav>
+
+<main>
+
+<!-- 1. Textual Content -->
+<section id="textual">
+    <h2>1. Textual Content</h2>
+    <p>
+        Textual content in a CMS refers to structured and unstructured text
+        managed through WYSIWYG editors.
+    </p>
+
+    <ul>
+        <li>Blog Posts</li>
+        <li>Product Descriptions</li>
+        <li>Meta Descriptions</li>
+        <li>Call-to-Action (CTA) Text</li>
+    </ul>
+</section>
+
+<!-- 2. Visual Content -->
+<section id="visual">
+    <h2>2. Visual Content</h2>
+    <p>Images, graphics, videos and layout elements.</p>
+
+    <img src="https://via.placeholder.com/600x300"
+         alt="Visual Example"
+         class="responsive-img">
+</section>
+
+<!-- 3. Audio Content -->
+<section id="audio">
+    <h2>3. Audio Content</h2>
+    <p>Podcasts, interviews and audio files stored in CMS.</p>
+
+    <audio controls>
+        <source src="sample.mp3" type="audio/mpeg">
+        Your browser does not support audio.
+    </audio>
+</section>
+
+<!-- 4. Social Media Content -->
+<section id="social">
+    <h2>4. Social Media Content</h2>
+    <p>Content created and scheduled for social platforms.</p>
+
+    <button onclick="showMessage()">Click to Share</button>
+</section>
+
+<!-- 5. Educational Content -->
+<section id="educational">
+    <h2>5. Educational Content</h2>
+    <p>Courses, quizzes, videos and learning materials.</p>
+</section>
+
+<!-- Profile Section -->
+<section id="profile" class="profile-section">
+    <h2>About Me</h2>
+
+    <div class="profile-card">
+        <img src="rohit.jpg" alt="Profile Image" class="profile-img">
+
+        <div class="profile-info">
+            <h3>Rohit Gouda</h3>
+            <p>Web Developer | Student | Tech Enthusiast</p>
+            <p>I create websites and learn about CMS, Web Development, and Programming.</p>
+
+            <button onclick="viewProfile()">View My Profile</button>
+        </div>
+    </div>
+</section>
+
+</main>
+
+<footer>
+    <p>© 2026 Rohit Gouda | Web Content Development</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
