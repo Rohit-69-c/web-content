@@ -123,6 +123,23 @@ footer {
     top: 20px;
     right: 30px;
     background-color:skyblue;
-    
-    
+}
+img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+.responsive-video{
+  width:300px;
+  height:200px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.audio-player{
+  display: block;
+  margin: 10px auto;
+  width: 300px;
 }
