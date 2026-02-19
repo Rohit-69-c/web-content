@@ -125,14 +125,14 @@ footer {
     background-color:skyblue;
 }
 img{
-    width: 300px;
+    width: 500px;
     height: 200px;
     border:1px solid black;
     border-radius: 20px;
     margin: 0 auto;
 }
 .responsive-video{
-  width:300px;
+  width:500px;
   height:200px;
   margin: 0 auto;
   border:1.5px solid black;
@@ -144,3 +144,4 @@ img{
   border:1px solid black;
   border-radius:20px;
 }
+
