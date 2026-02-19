@@ -8,7 +8,7 @@
 <body>
 
   <div class="top-profile">
-    <a href="#profile" style="color: black;font-family:fantasy;">My Profile</a>
+    <button><a href="#profile" style="color: black;font-family:fantasy;background-color:rgb(135, 187, 235);border:1px solid black;border-radius:5px;">My Profile</a></button>
 </div>
 
 <header>
@@ -23,6 +23,7 @@
         <li><a href="#audio">Audio</a></li>
         <li><a href="#social">Social Media</a></li>
         <li><a href="#educational">Educational</a></li>
+        <li><a href="#data">Data and Information</a></li>
     </ul>
 </nav>
 
@@ -65,9 +66,9 @@ Instead of using only text, image content helps people understand information qu
   <p>Infographics are visual representations of information, data, or knowledge designed to present complex information quickly and clearly.
 
 Instead of reading long paragraphs, people can understand the message easily through icons, charts, colors, and short text.</p>
-<h4>Example:<br><img src="info.jpg" alt="example for infographic content"></h4>
+<h4>Example:<br><img src="Info.jpg" alt="example for infographic content"></h4>
 
-<h4>3.<u>Videos:</u></h4>
+<h4>3.<u>Video content:</u></h4>
   <p>Video content is a type of visual content that presents information using moving images, sound, and sometimes text. It is one of the most powerful and engaging forms of digital communication today.
 
 Videos are widely used in education, marketing, entertainment, websites, and social media.</p>
@@ -91,12 +92,12 @@ Audio content is widely used in education, entertainment, marketing, and communi
 
 <!-- 4. Social Media Content -->
 <section id="social">
-  <h2>4. <u>Social Media Content</u></h2>
+  <h2>4. Social Media Content</h2>
   <p>
     Social media content is created to inform, engage, and connect with audiences on platforms like Instagram, YouTube, X, LinkedIn, and Facebook. It is usually short, visual-first, and action-oriented.
   </p>
 
-  <h3><u>Common Types</u></h3>
+  <h3><u>Common Types:</u></h3>
   <ul>
     <li><strong>Promotional Posts:</strong> Product launches, offers, and announcements.</li>
     <li><strong>Educational Posts:</strong> Tips, tutorials, and how-to content.</li>
@@ -106,44 +107,91 @@ Audio content is widely used in education, entertainment, marketing, and communi
   </ul>
  
   <h3>Example:</h3>
-  <img src="social.jpg" alt="Image showing examples of social media content">
+  <img src="social.jpeg" alt="Image showing examples of social media content">
 </section>
 
 <!-- 5. Educational Content -->
 <section id="educational">
-    <h2>5. Educational Content</h2>
-    <p>Courses, quizzes, videos and learning materials.</p>
+    <h2>5.<u> Educational Content</u></h2>
+    <p> Educational content is any type of con
+      tent created to teach, inform, or develop knowledge and skills in learners.
+
+It can be delivered in different formats like text, images, videos, audio, or interactive materials.</p>
+<h3><u>Common Types:</u></h3>
+<img src="educational.jpg" alt="example image for educational content">
+<ol>
+  <li><strong>Text-Based Educational Content:</strong>Learning through written words like books, notes, and articles.</li>
+  <li><strong>Video-Based Educational Content:</strong> Learning through recorded or live videos like lectures, demonstrations, or tutorials. Great for step-by-step teaching and showing real-world examples.</li>
+  <LI><strong>Audio-Based Educational Content:</strong> Learning by listening to podcasts, lectures, or narrated lessons. Useful for revision, language learning, and learning while multitasking.</LI>
+  <LI><strong>Visual/Graphic Educational Content:</strong> Learning through visuals like diagrams, infographics, charts, and illustrations. Helps simplify complex ideas and improve memory.</LI>
+</ol>
+</section>
+
+<section id="data">
+  <h2>6.<u>Data and Information content:</u></h2>
+  <h4><u>Data content:</u></h4>
+  <p>Data content refers to raw facts and figures displayed on a website without detailed explanation.</p>
+  <p><strong>Examples:</strong></p>
+  <ul>
+    <li>Product prices (₹10,000, ₹15,000)</li>
+    <li>Student marks (85, 90, 78)</li>
+    <li>Website visitor count (10,000 users)</li>
+    <li>Stock market numbers</li>
+  </ul>
+
+  <h4><u>Information content:</u></h4>
+  <p>Information content is processed and organized data that provides meaning and understanding to users.</p>
+  <p><strong>Examples:</strong></p>
+  <ul>
+    <li>“Sales increased by 20% this month.”</li>
+    <li>“Ravi scored the highest marks in the class.”</li>
+    <li>“The company gained 5,000 new users this week.”</li>
+  </ul>
 </section>
 
 <!-- Profile Section -->
 <section id="profile" class="profile-section">
-    <h2>About Me</h2>
+  <h2><u>About Me</u></h2>
 
-    <div class="profile-card">
-        <img src="rohit.jpg" alt="Profile Image" class="profile-img">
+  <div class="profile-card">
+    <img src="rohit.jpg" alt="Profile Image" class="profile-img">
 
-        <div class="profile-info">
-            <h3>Rohit Gouda</h3>
-            <p>Web Developer | Student | Tech Enthusiast</p>
-            <p>I create websites and learn about CMS, Web Development, and Programming.</p>
-
-            <button onclick="viewProfile()">View My Profile</button>
-        </div>
+    <div class="profile-info">
+      <h3>Rohit Gouda</h3>
+      <p>Web Developer | Student</p>
+      <p><strong>Email:</strong>goudarohit636@gmail.com</p>
     </div>
+  </div>
+</section>
+
+
+<!-- Share Section -->
+<section id="share" class="share-section">
+  <h2>Share This Page</h2>
+  <div class="share-buttons">
+    <a class="share-btn whatsapp" href="#" data-share="whatsapp" aria-label="Share on WhatsApp">WhatsApp</a>
+    <a class="share-btn twitter" href="#" data-share="twitter" aria-label="Share on Twitter">Twitter</a>
+    <a class="share-btn gmail" href="#" data-share="gmail" aria-label="Share via Gmail">Gmail</a>
+    <button class="share-btn copy" type="button" data-share="copy" aria-label="Copy page link">Copy Link</button>
+  </div>
+
+  <details class="share-more">
+    <summary>More options</summary>
+    <div class="share-buttons">
+      <a class="share-btn linkedin" href="#" data-share="linkedin" aria-label="Share on LinkedIn">LinkedIn</a>
+      <a class="share-btn facebook" href="#" data-share="facebook" aria-label="Share on Facebook">Facebook</a>
+      <a class="share-btn telegram" href="#" data-share="telegram" aria-label="Share on Telegram">Telegram</a>
+    </div>
+  </details>
 </section>
 
 </main>
 
 <footer>
-    <p>© 2026 Rohit Gouda | Web Content Development</p>
+    <p>@Web Content Development</p>
 </footer>
 
 <script src="script.js"></script>
 
 </body>
-
 </html>
-
-
-
-
